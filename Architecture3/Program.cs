@@ -47,6 +47,9 @@ namespace Architecture3
             carWash.WipWindshield();
             carWash.WipHeadlights();
             carWash.WipMirrors();
+            harvester.Movement(refuelingStationV2.LocationRefuelingStation());
+            harvester.SetRefuelingStation(refuelingStationV2, FuelType.Diesel);
+            harvester.Fuel();
             harvester.Sweeping();
 
 
