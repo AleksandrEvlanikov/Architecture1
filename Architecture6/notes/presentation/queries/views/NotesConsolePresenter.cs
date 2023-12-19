@@ -34,7 +34,7 @@ namespace Architecture6.notes.presentation.queries.views
 
             if (!int.TryParse(inputNumber, out int elementToCheck))
             {
-                Console.WriteLine("Некорректный ввод числа.");
+                Console.WriteLine("Некорректный ввод числа. Список не изменен.");
 
             }
             else if (elementToCheck > notes.Count)
