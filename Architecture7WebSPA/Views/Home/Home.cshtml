@@ -1,0 +1,48 @@
+﻿@model Architecture7WebSPA.Models.HomeViewModel
+
+<h3>Фильмы Гослинга</h3> 
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Name film</th>
+            <th scope="col">Review film</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Architecture7WebSPA.Models.FilmReview filmReview in Model.FilmGosling)
+        {
+            <tr>
+                <th scope="row">@filmReview.Id</th>
+                <td>@filmReview.Name</td>
+                <td>@filmReview.NameFilm</td>
+                <td>@filmReview.MovieReview</td>
+
+            </tr>
+        }
+
+    </tbody>
+
+</table>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Home</title>
+    <style>
+        body {
+            text-align: center;
+            background: url('/Images/Gos.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+@* <body>
+    <h1>Home</h1>
+    <p>Главная страница</p>
+</body> *@
+</html>
