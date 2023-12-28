@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Architecture8MVP", "Archite
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architecture9WEB-API", "Architecture9WEB-API\Architecture9WEB-API.csproj", "{043FC45D-2EFC-4EDB-8095-5D04F897252F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architecture10PatternRepository", "Architecture10PatternRepository\Architecture10PatternRepository.csproj", "{78A2B45D-0430-4946-A7B3-B91E78CE47C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{043FC45D-2EFC-4EDB-8095-5D04F897252F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{043FC45D-2EFC-4EDB-8095-5D04F897252F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{043FC45D-2EFC-4EDB-8095-5D04F897252F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78A2B45D-0430-4946-A7B3-B91E78CE47C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A2B45D-0430-4946-A7B3-B91E78CE47C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78A2B45D-0430-4946-A7B3-B91E78CE47C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78A2B45D-0430-4946-A7B3-B91E78CE47C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
