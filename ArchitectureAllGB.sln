@@ -19,9 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Architecture7WebSPA", "Arch
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Architecture8MVP", "Architecture8MVP\Architecture8MVP.csproj", "{C35404D8-49E9-4161-A430-6F908DC761F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architecture9WEB-API", "Architecture9WEB-API\Architecture9WEB-API.csproj", "{043FC45D-2EFC-4EDB-8095-5D04F897252F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Architecture9WEB-API", "Architecture9WEB-API\Architecture9WEB-API.csproj", "{043FC45D-2EFC-4EDB-8095-5D04F897252F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architecture10PatternRepository", "Architecture10PatternRepository\Architecture10PatternRepository.csproj", "{78A2B45D-0430-4946-A7B3-B91E78CE47C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Architecture10PatternRepository", "Architecture10PatternRepository\Architecture10PatternRepository.csproj", "{78A2B45D-0430-4946-A7B3-B91E78CE47C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicService.Data", "ClinicService.Data\ClinicService.Data.csproj", "{48FBA6A2-DFF8-476E-B448-A9AF11BE4ED6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architecture11ClinicDesctopWinForms", "ClinicDesctop\Architecture11ClinicDesctopWinForms.csproj", "{64EDA44E-811D-4E77-8E5B-413F8F62F70A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{78A2B45D-0430-4946-A7B3-B91E78CE47C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78A2B45D-0430-4946-A7B3-B91E78CE47C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78A2B45D-0430-4946-A7B3-B91E78CE47C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48FBA6A2-DFF8-476E-B448-A9AF11BE4ED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48FBA6A2-DFF8-476E-B448-A9AF11BE4ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48FBA6A2-DFF8-476E-B448-A9AF11BE4ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48FBA6A2-DFF8-476E-B448-A9AF11BE4ED6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64EDA44E-811D-4E77-8E5B-413F8F62F70A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64EDA44E-811D-4E77-8E5B-413F8F62F70A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64EDA44E-811D-4E77-8E5B-413F8F62F70A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64EDA44E-811D-4E77-8E5B-413F8F62F70A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
