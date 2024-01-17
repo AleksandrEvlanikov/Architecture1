@@ -25,7 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Architecture10PatternReposi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicService.Data", "ClinicService.Data\ClinicService.Data.csproj", "{48FBA6A2-DFF8-476E-B448-A9AF11BE4ED6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architecture11ClinicDesctopWinForms", "ClinicDesctop\Architecture11ClinicDesctopWinForms.csproj", "{64EDA44E-811D-4E77-8E5B-413F8F62F70A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architecture11ClinicDesctopWinForms", "Architecture11ClinicDesctopWinForms\Architecture11ClinicDesctopWinForms.csproj", "{64EDA44E-811D-4E77-8E5B-413F8F62F70A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
