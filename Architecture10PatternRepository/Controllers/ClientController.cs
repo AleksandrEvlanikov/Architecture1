@@ -17,8 +17,8 @@ namespace Architecture10PatternRepository.Controllers
             _clientRepository = clientRepository;
         }
 
-        [HttpPost("create")]
-        public IActionResult Create([FromBody] CreateClientRequest createRequest)
+        [HttpPost("create", Name = "ClientCreate")]
+        public ActionResult<int> Create([FromBody] CreateClientRequest createRequest)
         {
             Client client = new Client();
             client.Document = createRequest.Document;
@@ -29,8 +29,8 @@ namespace Architecture10PatternRepository.Controllers
             return Ok(_clientRepository.Create(client));
         }
 
-        [HttpPut("edit")]
-        public IActionResult Update([FromBody] UpdateClientRequest updateRequest)
+        [HttpPut("edit", Name = "ClientUpdate")]
+        public ActionResult<int> Update([FromBody] UpdateClientRequest updateRequest)
         {
             Client client = new Client();
             client.ClientId = updateRequest.ClientId;
@@ -43,34 +43,34 @@ namespace Architecture10PatternRepository.Controllers
         }
 
 
-        [HttpDelete("delete")]
-        public IActionResult Delete([FromQuery] int clientId)
+        [HttpDelete("delete", Name = "ClientDelete")]
+        public ActionResult<int> Delete([FromQuery] int clientId)
         {
             int res = _clientRepository.Delete(clientId);
             return Ok(res);
         }
 
-        [HttpDelete("delete-All")]
-        public IActionResult DeleteAll()
+        [HttpDelete("delete-All", Name = "ClientDeleteAll")]
+        public ActionResult<int> DeleteAll()
         {
             int res = _clientRepository.DeleteAll();
             return Ok(res);
         }
 
-        [HttpGet("get-all")]
-        public IActionResult GetAll()
+        [HttpGet("get-all", Name = "ClientGetAll")]
+        public ActionResult<List<Client>> GetAll()
         {
             return Ok(_clientRepository.GetAll());
         }
 
-        [HttpGet("get/{clientId}")]
-        public IActionResult GetById([FromRoute] int clientId)
+        [HttpGet("get/{clientId}", Name = "ClientGetById")]
+        public ActionResult<Client> GetById([FromRoute] int clientId)
         {
             return Ok(_clientRepository.GetById(clientId));
         }
 
-        [HttpGet("get-bySurName/{surName}")]
-        public IActionResult GetBySurName([FromRoute] string surName)
+        [HttpGet("get-bySurName/{surName}", Name = "ClientGetSurName")]
+        public ActionResult<List<Client>> GetBySurName([FromRoute] string surName)
         {
             return Ok(_clientRepository.GetBySurName(surName));
         }
